@@ -251,6 +251,12 @@ h1 {
   background-color: #151515;
   color: #fafafa;
   border-radius: 12px;
+
+  &:hover {
+    background-color: #fff;
+    color: #151515;
+    border: 2px solid #151515;
+  }
 }
 .wrapper__images {
   display: flex;
